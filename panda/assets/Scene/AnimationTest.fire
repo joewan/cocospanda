@@ -69,14 +69,17 @@
         "__id__": 3
       },
       {
-        "__id__": 5
+        "__id__": 6
+      },
+      {
+        "__id__": 8
       }
     ],
     "_active": true,
     "_level": 0,
     "_components": [
       {
-        "__id__": 8
+        "__id__": 11
       }
     ],
     "_prefab": null,
@@ -127,7 +130,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Main Camera",
+    "_name": "jiazai",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -138,6 +141,103 @@
     "_components": [
       {
         "__id__": 4
+      }
+    ],
+    "_prefab": {
+      "__id__": 5
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 81,
+      "height": 81
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": -329,
+      "y": -107,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_rotationX": 0,
+    "_rotationY": 0,
+    "_quat": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_zIndex": 0,
+    "groupIndex": 0,
+    "_id": "6aBe6nAaFGQY02H6hPmoWn"
+  },
+  {
+    "__type__": "sp.Skeleton",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 3
+    },
+    "_enabled": true,
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "paused": false,
+    "defaultSkin": "",
+    "defaultAnimation": "",
+    "loop": true,
+    "premultipliedAlpha": true,
+    "timeScale": 1,
+    "_N$skeletonData": {
+      "__uuid__": "a3d6d222-b965-4139-bc46-670b37cf8dfd"
+    },
+    "_N$debugSlots": false,
+    "_N$debugBones": false,
+    "_id": "93lFStR3pJW4FpGH7IpyGF"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 3
+    },
+    "asset": {
+      "__uuid__": "14a3356b-7636-41b1-86ab-84b2c17c4e4a"
+    },
+    "fileId": "a3hzhIL25O1bv49h703+lU",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Main Camera",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 1,
+    "_components": [
+      {
+        "__id__": 7
       }
     ],
     "_prefab": null,
@@ -191,7 +291,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 3
+      "__id__": 6
     },
     "_enabled": true,
     "_cullingMask": 4294967295,
@@ -220,10 +320,10 @@
     "_level": 1,
     "_components": [
       {
-        "__id__": 6
+        "__id__": 9
       },
       {
-        "__id__": 7
+        "__id__": 10
       }
     ],
     "_prefab": null,
@@ -277,7 +377,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 5
+      "__id__": 8
     },
     "_enabled": true,
     "_srcBlendFactor": 770,
@@ -305,7 +405,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 5
+      "__id__": 8
     },
     "_enabled": true,
     "_defaultClip": {
