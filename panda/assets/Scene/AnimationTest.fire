@@ -203,7 +203,7 @@
     "_dstBlendFactor": 771,
     "paused": false,
     "defaultSkin": "",
-    "defaultAnimation": "",
+    "defaultAnimation": "animation",
     "loop": true,
     "premultipliedAlpha": true,
     "timeScale": 1,
