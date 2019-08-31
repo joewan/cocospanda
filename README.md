@@ -1,4 +1,4 @@
-# Cocosanda
+# CocosPanda
 
 cocospanda是一个基于cocos creator 2.x的前端游戏框架。
 
@@ -18,6 +18,18 @@ FSM Finite State Machine
 
 4.**代码自动生成**
 
-5.前后端联合
+5.前后端联调
+
+6.Android | iOS APP 调试支持工具
+
+7.聚合APP功能——在APP中启动游戏
 
 ### TODO
+
+APP端 广告SDK —— 链咖SDK
+
+APP端 广告SDK —— 优量汇SDK
+
+APP端 广告SDK —— 穿山甲SDK
+
+APP端 渠道SDK（LOGIN） —— 微信SDK
